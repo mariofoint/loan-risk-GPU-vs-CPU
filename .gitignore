@@ -1,15 +1,41 @@
-
-# Ignore Python virtual environment
+# === Python virtual environment ===
 venv/
-# Ignore raw and processed data
+.venv/
+
+# === Jupyter and notebook checkpoints (optional) ===
+*.ipynb
+.ipynb_checkpoints/
+
+# === Raw and processed data ===
 data/raw/
 data/processed/
+*.csv
+*.csv.gz
+*.tsv
 
-# Ignore model outputs
+# === Model files ===
 models/
 *.pt
 *.onnx
+*.onnx.*
+*.engine
+*.pkl
 
-# Python cache
+# === Benchmarking outputs ===
+*.log
+*.csv
+*.png
+
+# === Python cache ===
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# === VS Code / IDE / editor config (optional) ===
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.bak

@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the raw dataset
-csv_path = "./raw/accepted_2007_to_2018Q4.csv"
+csv_path = "./data/raw/accepted_2007_to_2018Q4.csv"
 
 try:
     df = pd.read_csv(csv_path)
