@@ -1,0 +1,15 @@
+
+# Ignore Python virtual environment
+venv/
+# Ignore raw and processed data
+data/raw/
+data/processed/
+
+# Ignore model outputs
+models/
+*.pt
+*.onnx
+
+# Python cache
+__pycache__/
+*.pyc
