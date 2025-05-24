@@ -74,11 +74,10 @@ This behavior is typical of real-world ML deployment: **CPUs are better for smal
 
 ---
 
-## 📈 Log-Log Scaling Curve
+## Log-Log Scaling Curve
 
-<p align="center">
-  <img src="./models/batch_scaling_plot.png" width="600" />
-</p>
+![Batch Scaling Plot](batch_scaling_plot.png)
+
 
 ---
 
@@ -131,9 +130,9 @@ This project demonstrates how inference pipelines behave at scale, showcasing a 
 - Visualization of real latency trends  
 
 ---
-## ▶️ How to Run This Project
+##  How to Run This Project
 
-### 🔧 Prerequisites
+### Prerequisites
 
 - Python 3.9+ (recommended)
 - [PyTorch](https://pytorch.org/get-started/locally/)
@@ -143,7 +142,7 @@ This project demonstrates how inference pipelines behave at scale, showcasing a 
 
 ---
 
-### 📦 Setup Instructions
+### Setup Instructions
 
 ```bash
 # 1. Clone the repo and enter it
