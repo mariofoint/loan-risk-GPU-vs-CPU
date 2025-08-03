@@ -54,7 +54,7 @@ Tabular data with high cardinality, mixed data types, and business-relevant feat
 
 ## Explaining the Latency Trends
 
-At small batch sizes (e.g., 1 or 10), **CPU inference is faster**. This is because:
+At small batch sizes, **CPU inference is faster**. This is because:
 
 - CPUs are optimized for low-latency, sequential tasks and have minimal startup overhead.
 - GPUs introduce extra time for:
@@ -80,7 +80,6 @@ This behavior is typical of real-world ML deployment: **CPUs are better for smal
 
 
 ---
-
 ## Why This Matters for Systems Engineering
 
 This project simulates core deployment tradeoffs:
